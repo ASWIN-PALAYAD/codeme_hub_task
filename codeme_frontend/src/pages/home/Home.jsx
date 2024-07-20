@@ -2,7 +2,7 @@ import Nabbar from "../../components/navbar/Nabbar"
 
 const Home = () => {
   return (
-    <div>
+    <div className="container">
         <Nabbar/>
     </div>
   )
