@@ -1,0 +1,21 @@
+.display_section{
+    
+}
+.filter_section{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 90px;
+}
+
+.filter_section h1{
+    font-size: 44px;
+    font-weight: 300;
+}
+
+.products {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
