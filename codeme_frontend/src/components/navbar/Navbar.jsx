@@ -8,7 +8,7 @@ import { CiSearch } from "react-icons/ci";
 import './styles.css'
 
 const Nabbar = () => {
-  return (
+  return ( 
     <div className="nav_container">
       <div className="logo">
         <img src={"/src/assets/logo.png"} height={"100px"} />
@@ -19,13 +19,13 @@ const Nabbar = () => {
           <input type="text" placeholder="Search..." />
           <CiSearch style={{ width: '20px', height: '20px', backgroundColor:'grey' , borderRadius:"50%",padding:"2px" }}  />
         </div>
-        <Link className="nav_link">
-          <BsHandbag style={{ width: '20px', height: '20px' }} />
+        <Link className="nav_link" to={'/cart'}>
+          <BsHandbag style={{ width: '20px', height: '20px', color:'red', }} />
         </Link>
         <Link>
           <FaRegBell style={{ width: '20px', height: '20px' }} />
         </Link>
-        <Link>
+        <Link to={'/'}>
           <CiHeart  style={{ width: '20px', height: '20px' }}/>
         </Link>
         <Link>
